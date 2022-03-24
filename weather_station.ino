@@ -17,7 +17,7 @@ boolean isRaining;
 DHT dht(D4, DHT11);
 WiFiClient client;
 long thingsChannelNum = 1635256;
-const char thingWriteAPI[] = "95IR0A340G6P54M3";
+const char thingWriteAPI[] = "YOUR THINGSSPEAK API KEY";
 
 void setup() {
   // put your setup code here, to run once:
